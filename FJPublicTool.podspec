@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.source       = {:git => "https://github.com/KONGFANJI/FJPublicTool.git", :tag => "#{s.version}" }
 
-  s.source_files  = {:http=>"https://github.com/KONGFANJI/FJPublicTool.git"}
+  s.source_files  = "FrameWork/*.*"
 
   s.requires_arc = true
 
